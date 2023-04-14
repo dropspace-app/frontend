@@ -7,10 +7,10 @@ import { theme } from '@/styles/theme';
 import { NextSeo } from 'next-seo';
 
 const metadata = {
-  title: 'Next Solana Starter',
+  title: 'Dropspace',
   description:
-    'An opinionated Next.js template for building Solana applications pre configured with Chakra UI, Next.js, Solana wallet adapter, ESlint, Prettier, and more.',
-  url: 'https://next-solana-starter.vercel.app/',
+    'An all-in-one storage solution for communities, providing a secure and easy way to share files. Dropspace simplifies file management for organizations and their members.',
+  url: 'https://dropspacev1.vercel.app/',
 };
 
 const App = ({ Component, pageProps }: AppProps) => {
