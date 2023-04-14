@@ -1,4 +1,4 @@
-<a href="https://dropspacev1.vercel.app">
+<a href="https://dropspace.shastraos.org">
   <img alt="Banner" src="https://raw.githubusercontent.com/dropspace-app/dropspace/main/Assets/banner-modified.png">
 </a>
 

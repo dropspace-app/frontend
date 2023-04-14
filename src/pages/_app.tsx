@@ -10,7 +10,7 @@ const metadata = {
   title: 'Dropspace',
   description:
     'An all-in-one storage solution for communities, providing a secure and easy way to share files. Dropspace simplifies file management for organizations and their members.',
-  url: 'https://dropspacev1.vercel.app/',
+  url: 'https://dropspace.shastraos.org/',
 };
 
 const App = ({ Component, pageProps }: AppProps) => {
