@@ -17,7 +17,6 @@ const Upload = () => {
   const [dragging, setDragging] = useState(false);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-  const bg = useColorModeValue('gray.50', 'gray.700');
   const fileInputRef = useRef(null);
 
   const handleDrop = async event => {
@@ -46,11 +45,6 @@ const Upload = () => {
 
   const handleDragLeave = () => {
     setDragging(false);
-  };
-
-  const handleClear = () => {
-    setCid('');
-    setError('');
   };
 
   const handleFileInput = async event => {

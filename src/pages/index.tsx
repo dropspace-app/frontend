@@ -6,28 +6,22 @@ import Upload from './../components/upload';
 const Home = () => {
   return (
     <MainLayout>
-    <Heading size="4xl">
-      Dropspace
-    </Heading>
-    <Text fontSize="lg" maxW="2xl" mt={4}>
-    All in one storage solution for your Community!
-    </Text>
+      <Heading size="4xl">Dropspace</Heading>
+      <Text fontSize="lg" maxW="2xl" mt={4}>
+        All in one storage solution for your Community!
+      </Text>
 
-    <Link
-      _hover={{ textDecor: 'none' }}
-      href="#"
-      isExternal
-    >
-      <Upload style={{ marginTop: '500px' }} />
-    </Link>
-  </MainLayout>
+      <Link _hover={{ textDecor: 'none' }} href="#" isExternal>
+        <Upload style={{ marginTop: '500px' }} />
+      </Link>
+    </MainLayout>
   );
 };
 
 export default Home;
 
-
-{/* <Button
+{
+  /* <Button
           _active={{
             bg: 'blackAlpha.800',
             transform: 'scale(0.95)',
@@ -42,4 +36,5 @@ export default Home;
         >
           <Icon as={FiGithub} mr={2} />
           Star on GitHub
-        </Button> */}
+        </Button> */
+}
