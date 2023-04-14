@@ -1,6 +1,5 @@
 import MainLayout from '@/Layout/Main.layout';
-import { Button, Heading, Text, Icon, Link } from '@chakra-ui/react';
-import { FiGithub } from 'react-icons/fi';
+import { Heading, Text, Link } from '@chakra-ui/react';
 import Upload from './../components/upload';
 
 const Home = () => {
@@ -12,7 +11,7 @@ const Home = () => {
       </Text>
 
       <Link _hover={{ textDecor: 'none' }} href="#" isExternal>
-        <Upload style={{ marginTop: '500px' }} />
+        <Upload />
       </Link>
     </MainLayout>
   );

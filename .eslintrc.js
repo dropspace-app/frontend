@@ -1,3 +1,5 @@
+// eslint-disable-next-line react/jsx-sort-props
+
 const prettierConfig = require('./.prettierrc.js');
 
 module.exports = {
@@ -48,6 +50,7 @@ module.exports = {
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
     'jsx-a11y/href-no-hash': [0],
+    'react/jsx-sort-props': 'off',
     'react/display-name': 0,
     'react/no-deprecated': 'error',
     'react/no-unsafe': [
