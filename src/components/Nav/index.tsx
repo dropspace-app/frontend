@@ -25,7 +25,7 @@ const Nav: FC = () => {
       top={0}
       w="100%"
     >
-      <Text>Next solana Template</Text>
+      <Text>Dropspace n&w s3</Text>
       {connected ? <WalletMenu /> : <WalletMultiButton />}
     </Flex>
   );
