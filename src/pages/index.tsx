@@ -1,5 +1,6 @@
 import MainLayout from '@/Layout/Main.layout';
 import { Heading, Text, Link } from '@chakra-ui/react';
+import { upload } from "@spheron/browser-upload";
 import Upload from './../components/upload';
 
 const Home = () => {
