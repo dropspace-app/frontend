@@ -56,7 +56,7 @@ const Upload = () => {
   return (
     <Box>
       <Heading textAlign="center" mb={4}>
-        IPFS File Uploader
+        -- Community Name --
       </Heading>
       <Center>
         <Box
