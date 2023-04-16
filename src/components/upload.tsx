@@ -1,4 +1,3 @@
-// eslint-disable-next-line react/jsx-sort-props
 /* eslint-disable react/jsx-sort-props */
 import React, { useState, useRef } from 'react';
 import { Box, Button, Center, Heading, Input, Text } from '@chakra-ui/react';
@@ -69,7 +68,6 @@ const Upload = () => {
           onDrop={handleDrop}
           onClick={handleButtonClick}
           cursor="pointer"
-          // eslint-disable-next-line react/jsx-sort-props
         >
           {loading ? (
             <Text>Uploading...</Text>
